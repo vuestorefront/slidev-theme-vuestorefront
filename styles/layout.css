@@ -1,0 +1,65 @@
+:root {
+  // default theme color
+  // can be overrided by uses `themeConfig` option
+  --slidev-theme-primary: #02C652;
+  --slidev-theme-secondary: #420CA9;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+  }
+}
+
+.slidev-layout {
+  @apply px-14 py-10 text-[1.1rem] h-full;
+
+  li {
+    @apply ml-1.1em pl-0.2em leading-1.8em;
+  }
+
+  blockquote {
+    @apply text-sm px-2 py-1 border-primary border-l rounded;
+  }
+
+  blockquote > * {
+    @apply my-0;
+  }
+
+  table {
+    @apply w-full;
+  }
+
+  tr {
+    @apply border-b border-gray-400 border-opacity-20;
+  }
+
+  th {
+    @apply text-left font-400;
+  }
+
+  a {
+    @apply border-current border-b border-dashed hover:(text-$slidev-theme-primary border-solid);
+  }
+
+  td, th {
+    @apply p-2 py-3;
+  }
+
+  b, strong {
+    @apply font-600;
+  }
+
+
+}

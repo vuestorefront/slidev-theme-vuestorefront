@@ -1,0 +1,43 @@
+.slidev-layout {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-title font-bold
+  }
+  li {
+    &::marker{
+      font-size: 2.5rem;
+    }
+    list-style-image: url('./icon/point.svg');
+  }
+
+  h1 {
+    @apply mb-4 -ml-[0.05em];
+  }
+
+  h2 {
+    @apply mb-3;
+  }
+
+  h3 {
+    @apply mb-2;
+  }
+
+  p {
+    @apply my-4 leading-6;
+  }
+
+  pre, code {
+    @apply select-text;
+  }
+
+  kbd {
+    @apply border border-gray-400 border-b-2 border-opacity-20 rounded;
+    @apply bg-gray-400 bg-opacity-5 py-0.5 px-1 text-xs font-mono;
+  }
+
+  .vsf-header {
+    h3 {
+      color: var(--slidev-theme-primary);
+      @apply text-base font-medium
+    }
+  }
+}
