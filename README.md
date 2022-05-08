@@ -28,20 +28,17 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ## Layouts
 
-> Note: I'm still in the process of adding more slide variations.
-
 This theme provides the following layouts:
 
-- Default (improved w/grid)
-- BigPoints
-- Cover
-- Image Title
-- Section
-- Quote
-- SFC
-- Video
-- Grid Based Section
-- Outro
+- [Default (also with grid)](https://github.com/vuestorefront/slidev-theme-vuestorefront#default)
+- [Cover](https://github.com/vuestorefront/slidev-theme-vuestorefront#cover)
+- [Big Points](https://github.com/vuestorefront/slidev-theme-vuestorefront#big-points)
+- [Section](https://github.com/vuestorefront/slidev-theme-vuestorefront#section)
+- [Quote](https://github.com/vuestorefront/slidev-theme-vuestorefront#quote)
+- [SFC - Preview](https://github.com/vuestorefront/slidev-theme-vuestorefront#sfc-single-file-component-preview)
+- [Video](https://github.com/vuestorefront/slidev-theme-vuestorefront#video)
+- [Code](https://github.com/vuestorefront/slidev-theme-vuestorefront#code)
+- [Outro](https://github.com/vuestorefront/slidev-theme-vuestorefront#outro)
 
 ### Default
 Dark                       | Light
