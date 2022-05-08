@@ -1,5 +1,6 @@
 ---
 theme: ./
+download: true
 colorSchema: 'auto'
 themeConfigs:
   eventLogo: ''

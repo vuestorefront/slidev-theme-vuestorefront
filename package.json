@@ -17,6 +17,7 @@
     "build": "slidev build example.md",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
+    "screenshot:light": "slidev export example.md --format png --light",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .eslintignore --fix .",
     "format": "prettier .  --write",
     "semantic-release": "semantic-release"
@@ -27,7 +28,8 @@
     "lodash-es": "^4.17.21",
     "theme-vitesse": "^0.4.9",
     "vite-svg-loader": "^3.3.0",
-    "cli-real-favicon": "^0.0.8"
+    "cli-real-favicon": "^0.0.8",
+    "vite-plugin-remote-assets": "^0.2.2"
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.5",

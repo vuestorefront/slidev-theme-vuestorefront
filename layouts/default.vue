@@ -55,4 +55,32 @@
   });
 </script>
 
-<style lang="postcss"></style>
+<style lang="postcss">
+  html.dark {
+    .slidev-layout {
+      background-image: url('/bg-mini-logo-top-right-transparent.svg');
+
+      &.image-title {
+        background-image: url('/bg-diamond-top-right.svg');
+      }
+
+      &.outro {
+        background-image: url('/bg-diamond-middle-right.svg');
+      }
+    }
+  }
+
+  html:not(.dark) {
+    .slidev-layout {
+      background-image: url('/bg-mini-logo-top-right-white.svg');
+
+      &.image-title {
+        background-image: url('/bg-diamond-top-right.svg');
+      }
+
+      &.outro {
+        background-image: url('/bg-diamond-middle-right.svg');
+      }
+    }
+  }
+</style>
