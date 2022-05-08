@@ -135,5 +135,4 @@ hostedSlides: 'github.com/vuestorefront/slidev-theme-vuestorefront'
 ---
 
 # Thank you for listening!
-
 ## It's Q&A time!

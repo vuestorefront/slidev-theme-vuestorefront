@@ -6,7 +6,7 @@
     &::marker{
       font-size: 2.5rem;
     }
-    list-style-image: url('/icon/point.svg');
+    list-style-image: url('../icon/point.svg');
   }
 
   h1 {
