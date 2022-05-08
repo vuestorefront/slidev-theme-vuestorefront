@@ -1,6 +1,6 @@
 # slidev-theme-vuestorefront
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-vuestorefront?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-vuestorefront)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-vuestorefront?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-vuestorefront)[![Netlify Status](https://api.netlify.com/api/v1/badges/6ec33b49-92d9-4315-bbf7-f222a4fae33e/deploy-status)](https://app.netlify.com/sites/slidev-theme-vuestorefront/deploys)
 
 A Vue Storefront inspired theme for [Slidev](https://github.com/slidevjs/slidev).
 
