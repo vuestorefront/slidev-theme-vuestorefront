@@ -14,7 +14,7 @@ Live demo: https://slidev-theme-vuestorefront.netlify.app/
 * Flexible Default Layout using Grids
 * Follow Vue Storefront designs
 
-![Default](./screenshots/default-title.png)
+![Default](screenshots/named/default-title.png)
 
 ## Install
 
@@ -173,13 +173,13 @@ titleRow: true
 
 ```
 
-![Screenshot of Big-Points Slide](./screenshots/big-points.png)
+![Screenshot of Big-Points Slide](screenshots/named/big-points.png)
 
 ### Section
 
 This slide can be used to split your talks into sections. It's meant to only have a single heading.
 
-![Section Slide](./screenshots/section.png)
+![Section Slide](screenshots/named/section.png)
 
 ### Quote
 
@@ -198,7 +198,7 @@ author: Bob Ross
 ---
 ```
 
-![Quote Slide](./screenshots/quote.png)
+![Quote Slide](screenshots/named/quote.png)
 
 ### SFC (Single File Component Preview)
 
@@ -258,12 +258,12 @@ example: Test
 
 #### Example
 
-![Slide Example for SFC Playground](./screenshots/sfc.png)
+![Slide Example for SFC Playground](screenshots/named/sfc.png)
 
 ### Video
 This layout can handle videos from YouTube, Vimeo, Dailymotion and Coub
 
-![Slide for Videos](./screenshots/video.png)
+![Slide for Videos](screenshots/named/video.png)
 
 #### Example
 

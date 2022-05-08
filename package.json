@@ -17,7 +17,6 @@
     "build": "slidev build example.md",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png",
-    "screenshot:light": "slidev export example.md --format png --light",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .eslintignore --fix .",
     "format": "prettier .  --write",
     "semantic-release": "semantic-release"
